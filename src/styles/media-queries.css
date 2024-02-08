@@ -3,3 +3,20 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+
+@media screen and (max-width: 768px){
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        padding: 12px;
+        width: 300px;
+    }
+
+    .offer_list-item {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+

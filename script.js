@@ -1,4 +1,12 @@
-<span class="text_footer .subtitle_footer">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</span>
+function openNav(){
+    document.getElementById("myNav").style.width = '300px'
+}
+
+function closeNav(){
+    document.getElementById("myNav").style.width = '0'
+}
+
+{/* <span class="text_footer .subtitle_footer">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</span> */}
 
 
 /* <footer class="disclaimer-premium">

@@ -3,7 +3,7 @@
 .main_container {
     max-width: 80vw;
     height: 100vh;
-    margin-left: 320px;
+    margin-left: 70px;
     margin-right: 56px;
 }
 
@@ -132,6 +132,10 @@
     margin: 10px;
     border-radius: 10px;
     background-color: var(--background-sidebar);
+    
+    position: relative;
+    z-index: -1;
+    
 }
 
 .playlist {
@@ -181,6 +185,7 @@
     gap: 16px;
     grid-gap: 32px;
     margin: 0 auto;
+    
 }
 
 .cards {
@@ -189,6 +194,7 @@
   height: 200px;
   overflow: hidden;
   border-radius: 8px;
+  
 }
 
 .cards span {

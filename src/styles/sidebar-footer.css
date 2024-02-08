@@ -48,6 +48,32 @@ body {
     font-size: 14px;
 }
 
+.nav-button {
+    border: 0;
+    border-radius: 100%;
+    padding: 8px;
+    background-color: #1db954;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.overlay {
+    width: auto;
+    height: 100%;
+    z-index: 9; /* Deixa esse container uma camada acima de todos do site, quando clicar ele que vai aparecer */
+    position: fixed;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 1s;
+}
+
 .library {
     background-color: var(--background-sidebar);
     border-radius: 8px;
