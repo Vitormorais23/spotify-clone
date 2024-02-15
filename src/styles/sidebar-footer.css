@@ -5,6 +5,11 @@ body {
     font-family: var(--font-dm-sans);
 }
 
+.overlap .sidebar{
+    z-index: 8;
+    position: fixed;
+}
+
 .sidebar {
     position: fixed;
     top: 0;
