@@ -20,3 +20,51 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+
+    .sidebar {
+        display: block;
+    }
+
+    .overlap .sidebar{
+        position: fixed;
+        z-index: 9;
+    }
+
+    .overlay {
+        width: 300px;
+        height: 100%;
+        z-index: 9; /* Deixa esse container uma camada acima de todos do site, quando clicar ele que vai aparecer */
+        position: fixed;
+        overflow-x: hidden;
+        transition: all 0.5s;
+    }
+
+    .open-button {
+        display: block;
+        border: 0;
+        border-radius: 100%;
+        padding: 8px;
+        background-color: #1db954;
+        margin: 8px;
+        cursor: pointer;
+    }
+
+    .overlay .closebtn {
+        display: block;
+        position: absolute;
+        font-size: 40px;
+        text-decoration: none;
+        color: #fff;
+        transition: all 1s;
+    }
+
+    .main_container {
+        max-width: 80vw;
+        height: 100vh;
+        margin-left: 70px;
+        margin-right: 56px;
+    }
+
+}
+
