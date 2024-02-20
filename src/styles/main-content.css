@@ -3,15 +3,15 @@
 .main_container {
   max-width: 80vw;
   height: 100vh;
-  margin-left: 315px;
   margin-right: 56px;
+  display: flex;
 }
 
 .header_navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px;
+  margin: 0 10px 10px 10px;
   border-radius: 8px;
   background-color: var(--background-sidebar);
   padding: 12px;
@@ -128,8 +128,8 @@
 .playlist-container {
   height: 68vh;
   padding-top: 16px;
-  margin: 10px;
-  border-radius: 10px;
+  margin: 0 10px 10px 10px;
+  border-radius: 8px;
   background-color: var(--background-sidebar);
 }
 

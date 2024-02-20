@@ -5,43 +5,40 @@ body {
     font-family: var(--font-dm-sans);
 }
 
-.overlap .sidebar{
-    position: fixed;
-    z-index: 9;
+.overlap {
+    display: flex;
+}
+
+.logo {
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 100px;
 }
 
 .sidebar {
-    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    padding: 12px;
+    padding: 0;
     width: 300px;
 
-    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+#btn-mobile {
+    display: none;
 }
 
 .sidebar_navigation {
     background-color: var(--background-sidebar);
     border-radius: 8px;
-    padding: 16px 0 0 16px;
-}
-
-.sidebar_navigation .logo {
-    background-color: var(--background-sidebar);
-    display: flex;
-    flex-direction: column;
-    border-radius: 8px;
-    padding: 16px 0 0 16px;
-}
-
-.logo img {
-    width: 80px;
-}
-
-.sidebar nav ul {
-    margin-top: 20px;
-    padding: 0 20px 10px 0px;
+    padding: 0 0 0 16px;
+    margin-left: 10px;
 }
 
 .sidebar ul li {
@@ -55,14 +52,6 @@ body {
     font-size: 14px;
 }
 
- .open-button {
-    display: none;
-}
-
-.overlay .closebtn {
-    display: none;
-}
-
 .library {
     background-color: var(--background-sidebar);
     border-radius: 8px;
@@ -74,6 +63,7 @@ body {
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
+    margin-left: 10px;
 } 
 
 .library .library_content {

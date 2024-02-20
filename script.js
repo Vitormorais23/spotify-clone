@@ -1,10 +1,13 @@
-function openNav(){
-    document.getElementById("myNav").style.width = '300px'
+// Abrir e fechar o menu
+
+const BTN_MOBILE = document.getElementById('btn-mobile') 
+
+function toggleMenu() {
+    const BTN_MOBILE = document.getElementById('sidebar') 
+    sidebar.classList.toggle('active')
 }
 
-function closeNav(){
-    document.getElementById("myNav").style.width = '0'
-}
+BTN_MOBILE.addEventListener('click', toggleMenu)
 
 {/* <span class="text_footer .subtitle_footer">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</span> */}
 
