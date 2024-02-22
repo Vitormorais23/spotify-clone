@@ -1,26 +1,307 @@
-@media screen and (max-width: 1015px) {
-    .offer_list-item {
-        grid-template-columns: 1fr 1fr;
+@media screen and (max-width: 1510px) {
+    /* PLAYLIST */
+
+    .playlist-container {
+        margin: 0 8px 0px 10px;
+    }
+
+    .offer_list-item{
+        grid-gap: 28px;
+    }
+    
+    .cards {
+        width: 200px;
+        height: 180px;
     }
 }
 
-@media screen and (max-width: 768px){
-
-    /* .sidebar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        padding: 12px;
-        width: 300px;
-    } */
+@media screen and (max-width: 1395px) {
 
     .offer_list-item {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 16px;
+        grid-gap: 16px;
+    }
+
+    .cards {
+        width: 170px;
+        height: 150px;        
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1200px) {
+    .offer_list-item {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 16px;
+        grid-gap: 16px;
+    }
+
+    .footer {
+        padding: 15px 25px;
+    }
+
+    .footer button {
+        padding: 16px 20px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .header_login .subscribe {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .offer_list-item {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 16px;
+        grid-gap: 16px;
+    }
+
+    .cards {
+        width: 160px;
+        height: 140px;        
+    }
+        
+    .cards span {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .offer_list-item img {
+        width: 90px;
+    }
+
+    .footer button {
+        padding: 14px 20px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+    .header_search input {
+        padding: 0px 60px 0 12px;
+    }
+
+    .header_search {
+        width: 270px;
+    }
+
+    .offer_list-item {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .playlist-container {
+        padding-top: 16px;
+        margin: 0 10px 10px 10px;
+    }
+
+    .footer .subtitle_footer {
+        font-size: 12px;
+    }
+
+    .footer button {
+        font-size: 14px;
+        padding: 13px 15px;
+    }
+}
+
+@media screen and (max-width: 825px) {
+
+    .header_search input {
+        padding: 0px 60px 0 12px;
+    }
+
+    .header_login .login {
+        width: 85px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .header_search {
+        width: 240px;
+    }
+
+    .offer_list-item {
+        grid-gap: 14px;
+    }
+
+    .footer .subtitle_footer {
+        font-size: 11.5px;
+    }
+
+    .footer button {
+        font-size: 13.5px;
+        padding: 13px 9px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .sidebar_navigation {
+        background-color: var(--background-sidebar);
+        border-radius: 8px;
+        padding: 0 0 0 11px;
+        margin-left: 10px;
+    }
+
+    .sidebar_navigation span {
+        font-size: 12px;
+    }
+
+    .library .library_button {
+        font-size: 12px;
+        padding: 15px 6px;
+        gap: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .library {
+        font-size: 12px;
+    }
+
+    .languages .languages_button {
+        width: 150px;
+        margin: 0px;
+        padding: 8px;
+    }
+
+    .languages .languages_button span {
+        font-size: 11px;
+    }
+
+    .playlist {
+        margin: 18px;
+    }
+
+    .playlist #greeting {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .playlist .session {
+        font-size: 18px;
+    }
+
+    .footer button {
+        font-size: 11.5px;
+        padding: 11px 9px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .sidebar ul li {
+        padding: 10.5px;
+    }
+
+    .sidebar_navigation {
+        padding: 0 0 0 12px;
+        margin-left: 5px;
+    }
+    
+    .library {
+        padding: 4px 8px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .header_navigation {
+        margin: 0 5px 5px 5px;
+        padding: 20.5px;
+    }
+
+    .header_search {
+        width: 150px;
+        height: 31px;
+    }
+
+    .header_login .subscribe {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+
+    .header_login .login {
+        width: 63px;
+        height: 31px;
+        font-size: 13px;
+    
+    }
+
+    .offer_list-item {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .playlist-container {
+        height: 68vh;
+        padding-top: 16px;
+        margin: 0 5px 10px 5px;
+    }
+
+    .cards {
+        width: 130px;
+        height: 110px;
+    }
+
+    .cards span {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .offer_list-item img {
+        width: 70px;
+    }
+
+    .footer {
+        padding: 7px 15px;
+    }
+
+    .footer .subtitle_footer {
+        font-size: 10px;
+    }
+
+    .footer button {
+        font-size: 11.5px;
+        padding: 11px 9px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .footer {
+        padding: 4px 15px;
+    }
+
+    .footer .title_footer {
+        margin-bottom: 6px;
+    }
+
+    .footer .subtitle_footer {
+        font-size: 9.5px;
+    }
+
+    .footer button {
+        font-size: 10px;
+        padding: 11px 7px;
+    }
+}
+
+@media screen and (max-width: 651px) {
+    
+
+
+}
+
+@media screen and (max-width: 430px) {
 
     #btn-mobile {
         display: block;
@@ -33,41 +314,21 @@
     }
     
     #menu {
-        display: block;
         position: absolute;
-        transition: .6s;
         margin-top: 0;
         margin-left: 10px;
         z-index: 99;
-        height: 0;
+        transition: .6s;
+        height: 0px;
         visibility: hidden;
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
     
     #sidebar.active #menu {
         height: auto;
         visibility: visible;
-        overflow-y: auto;
+        overflow-x: auto;
     }
-
-    /* #menu {
-        display: block;
-        position: absolute;
-        width: 100%;
-        top: 70px;
-        right: 0;
-        background-color: #e7e7e7;
-        transition: .6s;
-        z-index: 1000;
-        height: 0;
-        visibility: hidden;
-        overflow-y: hidden;
-    }
-
-    #sidebar.active #menu {
-        visibility: visible;
-        overflow-y: auto;
-    }*/
 
     #hamburger {
         display: block;
@@ -97,13 +358,4 @@
         transform: rotate(-135deg);
         top: -7px;
     }
-
-    /*.main_container {
-        max-width: 80vw;
-        height: 100vh;
-        margin-left: 70px;
-        margin-right: 56px;
-    } */ 
-
 }
-

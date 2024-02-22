@@ -2,12 +2,16 @@
 
 const BTN_MOBILE = document.getElementById('btn-mobile') 
 
-function toggleMenu() {
-    const BTN_MOBILE = document.getElementById('sidebar') 
+function toggleMenu(event) {
+    if(event.type === 'touchstart') {
+        event.preventDefault()
+    }
+    const sidebar = document.getElementById('sidebar') 
     sidebar.classList.toggle('active')
 }
 
 BTN_MOBILE.addEventListener('click', toggleMenu)
+BTN_MOBILE.addEventListener('touchstart', toggleMenu)
 
 {/* <span class="text_footer .subtitle_footer">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</span> */}
 

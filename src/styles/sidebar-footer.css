@@ -10,13 +10,15 @@ body {
 }
 
 .logo {
+    display: flex;
+    justify-content: center;
     border-radius: 8px;
     padding: 16px 0 0 16px;
     margin-bottom: 10px;
 }
 
 .logo img {
-    width: 100px;
+    width: 150px;
 }
 
 .sidebar {
@@ -25,9 +27,6 @@ body {
     bottom: 0;
     padding: 0;
     width: 300px;
-
-    display: flex;
-    flex-direction: column;
 }
 
 #btn-mobile {
@@ -173,7 +172,7 @@ body {
 }
 
 .footer {
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     justify-content: space-between;
     bottom: 0;

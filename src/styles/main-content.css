@@ -1,3 +1,7 @@
+body {
+  height: calc(100vh - 60px);
+}
+
 /* HEADER */
 
 .main_container {
@@ -94,34 +98,6 @@
   border: none;
   cursor: pointer;
 } 
-
-/* 
-
-  EU QUE FIZ
-
-.informacoes {
-  margin: 10px;
-  background-color: var(--background-sidebar);
-  border-radius: 8px;
-  padding: 12px;
-} 
-
-.informacoes .boas-vindas {
-  padding: 20px;
-}
-
-.informacoes .boas-vindas h1 {
-  font-size: 2em;
-  color: #fff;
-  font-weight: 700;
-  margin-bottom: 40px;
-}
-
-.informacoes .boas-vindas p {
-  font-size: 1em;
-  color: #fff;
-  font-weight: 700;
-} */
 
 /* PLAYLIST */
 
