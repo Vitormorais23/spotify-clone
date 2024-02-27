@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Imersão Dev</title>
+    <title>Spotify - José Vitor</title>
     <link rel="shortcut icon" href="src/assets/icons/favicon.png" type="image/x-icon">
 
     <link rel="stylesheet" href="src/styles/reset.css">
@@ -33,94 +33,183 @@
         <main>
             <div class="main_container">
 
-                <div id="sidebar" class="sidebar">
-
-                    <button id="btn-mobile" aria-expanded="false">
-                        <span id="hamburger">
-                        </span>
-                    </button>
-
-                    <div id="menu" role="menu">
-                        <div id="myNav" class="overlay">
-                            <nav class="sidebar_navigation">
-                                <ul>
-                                    <li><a href="">
-                                        <span class="fa fa-home"></span>
-                                        <span>Início</span>                      </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <span class="fa fa-search"></span>
-                                            <span>Buscar</span>               
-                                        </a>
-                    
-                                    </li>
-                                </ul>
-                            </nav>
-                    
-                            <div class="library">
-                                <div class="library_content">
-                                    <button class="library_button">
-                                        <span class="fa-solid fa-book"></span>
-                                        <span>Sua Biblioteca</span>
-                                    </button>
-                                        <span class="fa fas fa-plus"></span>
-                                </div> 
-                
-                                <section class="section-playlist">
-                                    <div class="section-playlist_content">
-                                        <span class="text title">Crie sua primeira playlist</span>
-                                        <span class="text subtitle">É fácil, vamos te ajudar</span>
-                                        
-                                        <button class="section-playlist_button">
-                                            <span>Criar playlist</span>
+                <div class="sidebar-desktop">
+                    <div class="sidebar">
+    
+                        <div id="menu" role="menu">
+                            <div id="myNav" class="overlay">
+                                <nav class="sidebar_navigation">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <span class="fa fa-home"></span>
+                                                <span>Início</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="fa fa-search"></span>
+                                                <span>Buscar</span>               
+                                            </a>
+                        
+                                        </li>
+                                    </ul>
+                                </nav>
+                        
+                                <div class="library">
+                                    <div class="library_content">
+                                        <button class="library_button">
+                                            <span class="fa-solid fa-book"></span>
+                                            <span>Sua Biblioteca</span>
                                         </button>
+                                            <span class="fa fas fa-plus"></span>
+                                    </div> 
+                    
+                                    <section class="section-playlist">
+                                        <div class="section-playlist_content">
+                                            <span class="text title">Crie sua primeira playlist</span>
+                                            <span class="text subtitle">É fácil, vamos te ajudar</span>
+                                            
+                                            <button class="section-playlist_button">
+                                                <span>Criar playlist</span>
+                                            </button>
+                                        </div>
+                                    </section>
+                    
+                                    <div class="cookies">
+                                        <a href="">cookies</a>
                                     </div>
-                                </section>
-                
-                                <div class="cookies">
-                                    <a href="">cookies</a>
+                    
+                                    <div class="languages">
+                                        <button class="languages_button">
+                                            <span class="fa fa-globe"></span>
+                                            <span>Português do Brasil</span>
+                                        </button>
+                                    </div>    
                                 </div>
-                
-                                <div class="languages">
-                                    <button class="languages_button">
-                                        <span class="fa fa-globe"></span>
-                                        <span>Português do Brasil</span>
-                                    </button>
-                                </div>    
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="main-navigation">
-                    <nav class="header_navigation">
-        
-                        <div class="split-navigation">
-                            <div class="group-search">
-                                <div class="navigation">
-                                    <button class="arrow-left">
-                                        <img src="src/assets/icons/small-left.png" alt="Seta esquerda">
-                                    </button>
-                                    <button class="arrow-right">
-                                        <img src="src/assets/icons/small-right.png" alt="Seta direita">
-                                    </button>
-                                </div>
-                
-                                <div class="header_search">
-                                        <img src="src/assets/icons/search.png" alt="">
-                                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
-                                </div>
+                    <div class="desktop-header">
+                        <nav class="header_navigation">
+                            <div class="navigation">
+                                <button class="arrow-left">
+                                    <img src="src/assets/icons/small-left.png" alt="Seta esquerda">
+                                </button>
+                                <button class="arrow-right">
+                                    <img src="src/assets/icons/small-right.png" alt="Seta direita">
+                                </button>
                             </div>
-            
+    
+                            <div class="header_search">
+                                <img src="src/assets/icons/search.png" alt="">
+                                <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
+                            </div>
+                           
                             <div class="header_login">
-                                    <button class="subscribe">Inscreva-se</button>
-                                    <button class="login">Entrar</button>
+                                <button class="subscribe">Inscreva-se</button>
+                                <button class="login">Entrar</button>
+                            </div>
+                        </nav>
+                    </div>        
+                    <!-- MOBILE HEADER -->
+                        
+                    <div class="mobile-header">
+
+                        <div class="sidebar-mobile">
+                            <div id="sidebar" class="sidebar">
+    
+                                <button id="btn-mobile" aria-expanded="false">
+                                    <span id="hamburger">
+                                    </span>
+                                </button>
+            
+                                <div id="menu" role="menu">
+                                    <div id="myNav" class="overlay">
+                                        <nav class="sidebar_navigation">
+                                            <ul>
+                                                <li>
+                                                    <a href="">
+                                                        <span class="fa fa-home"></span>
+                                                        <span>Início</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <span class="fa fa-search"></span>
+                                                        <span>Buscar</span>               
+                                                    </a>
+                                
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                
+                                        <div class="library">
+                                            <div class="library_content">
+                                                <button class="library_button">
+                                                    <span class="fa-solid fa-book"></span>
+                                                    <span>Sua Biblioteca</span>
+                                                </button>
+                                                    <span class="fa fas fa-plus"></span>
+                                            </div> 
+                            
+                                            <section class="section-playlist">
+                                                <div class="section-playlist_content">
+                                                    <span class="text title">Crie sua primeira playlist</span>
+                                                    <span class="text subtitle">É fácil, vamos te ajudar</span>
+                                                    
+                                                    <button class="section-playlist_button">
+                                                        <span>Criar playlist</span>
+                                                    </button>
+                                                </div>
+                                            </section>
+                            
+                                            <div class="cookies">
+                                                <a href="">cookies</a>
+                                            </div>
+                            
+                                            <div class="languages">
+                                                <button class="languages_button">
+                                                    <span class="fa fa-globe"></span>
+                                                    <span>Português do Brasil</span>
+                                                </button>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        
-                    </nav>
-        
+
+                        <nav class="header_navigation">
+                            <div class="split-navigation">
+                                <div class="group-search">
+                                    <div class="navigation">
+                                        <button class="arrow-left">
+                                            <img src="src/assets/icons/small-left.png" alt="Seta esquerda">
+                                        </button>
+                                        <button class="arrow-right">
+                                            <img src="src/assets/icons/small-right.png" alt="Seta direita">
+                                        </button>
+                                    </div>
+                    
+                                    <div class="header_search">
+                                            <img src="src/assets/icons/search.png" alt="">
+                                            <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
+                                    </div>
+                                </div>
+                
+                                <div class="header_login">
+                                        <button class="subscribe">Inscreva-se</button>
+                                        <button class="login">Entrar</button>
+                                </div>
+                            </div>
+                        </nav>
+                        <!-- FIM MOBILE HEADER --> 
+                    </div>
+
                     <!-- PLAYLIST -->
         
                     <div class="playlist-container">
@@ -258,7 +347,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="result-artist" class="hidden">
+                        <!-- <div id="result-artist" class="hidden">
                             <div class="grid-container">
                                 <div class="artist-card" id="">
                                     <div class="card-img">
@@ -274,7 +363,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

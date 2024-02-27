@@ -7,6 +7,11 @@ body {
 
 .overlap {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .logo {
@@ -19,6 +24,10 @@ body {
 
 .logo img {
     width: 150px;
+}
+
+.sidebar-mobile {
+    display: none;
 }
 
 .sidebar {
