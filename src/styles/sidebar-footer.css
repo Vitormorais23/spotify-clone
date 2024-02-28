@@ -111,7 +111,7 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    background-color: #242424;
+    background-color: #313131;
     gap: 20px;
     color: var(--color-letras-principais);
     border-radius: 8px;

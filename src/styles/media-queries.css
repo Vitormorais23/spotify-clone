@@ -274,7 +274,7 @@
     }
 
     .header_search {
-        width: 150px;
+        width: 195px;
         height: 31px;
     }
 
@@ -297,7 +297,7 @@
     .playlist-container {
         height: 68vh;
         padding-top: 16px;
-        margin: 0 5px 10px 5px;
+        margin: 0 2px 10px 5px;
     }
 
     .cards {
